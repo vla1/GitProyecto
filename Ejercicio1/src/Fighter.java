@@ -4,9 +4,9 @@ public class Fighter {
 
     //instanciar valores del estado del fighter
     public Fighter (){
-        Name="";
-        Health=0;
-        Damage=0;
+        Name="unknown";
+        Health=1;
+        Damage=1;
     }
     //definir estado del fighter
     public Fighter(String name, int health, int damage){
